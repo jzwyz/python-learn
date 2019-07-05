@@ -1,3 +1,4 @@
+#!/usr/local/bin/python3
 """
 练习: 构造程序逻辑
 
