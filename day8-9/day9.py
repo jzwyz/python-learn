@@ -246,7 +246,7 @@ def main():
 
     pets = [Dog('旺财'), Cat('汤姆')]
     for pet in pets:
-        pet.make_voice();
+        pet.make_voice()
 
 
 def clock_main():
