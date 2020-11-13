@@ -39,4 +39,4 @@ python 中只有两种 公开的和私有的
 '''
 
 if __name__ == "__main__":
-    main();
+    main()
