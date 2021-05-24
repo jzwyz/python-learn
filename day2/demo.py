@@ -1,4 +1,4 @@
-#!/usr/local/bin/python3
+#!/usr/bin/python3
 
 import math
 # 或 from math import math
@@ -11,12 +11,13 @@ python学习第二天, 基本语法
 """
 变量命名
 变量使用
-使用占位符格式化字符串输出(占位符貌似只能使用int类型赋值)
+使用占位符格式化字符串输出
 """
 a = 1
 b = 2
 print('除法 1 / 2 =', 1/2)
 print('格式显示 取整: %d / %d = %d' % (a, b, 1//2))
+print('Welcome %s' % 'Jason')
 
 
 """
@@ -30,16 +31,16 @@ print('格式显示 取整: %d / %d = %d' % (a, b, 1//2))
 """
 type() 判断类型
 """
-# d = input('d = ')
-# e = 2
-# f = 1.2j + e
-# g = 'Hello'
-# h = True
-# print(type(d))
-# print(type(e))
-# print(type(f))
-# print(type(g))
-# print(type(h))
+d = input('d = ')
+e = 2
+f = 1.2j + e
+g = 'Hello'
+h = True
+print(type(d))
+print(type(e))
+print(type(f))
+print(type(g))
+print(type(h))
 
 
 """
@@ -77,7 +78,7 @@ F = 1.8C + 32
 如果代码太长写成一行不便于阅读 可以使用\或()折行
 """
 
-year = int(input('输入年份:'))
-is_leap = (year % 4 == 0 and year % 100 != 0
-            or year % 400 == 0)
-print(is_leap)
+# year = int(input('输入年份:'))
+# is_leap = (year % 4 == 0 and year % 100 != 0
+#             or year % 400 == 0)
+# print(is_leap)

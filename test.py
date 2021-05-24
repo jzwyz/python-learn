@@ -17,3 +17,14 @@ nums = [str(n) for n in keyword.kwlist]
 print(','.join(nums))
 
 # import this
+
+print("----------\n")
+
+ffg = (x for x in range(1,200))
+fft = (1,2,3,4,4.5,5,6,7)
+
+for f in fft:
+    print('-----> f: %s' % (f))
+
+
+import numpy

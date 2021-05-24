@@ -191,7 +191,7 @@ def dic_main():
     print(scores.popitem()) # 从 字典末尾删除一个kv 并返回该kv
     print(scores.pop('Jasons', 5)) # 删除指定kv, 并返回该kv, 如果不存在则返回 5, 如果未指定 5 则抛出异常
     print(scores)
-    scores.clear(); # 清空字典
+    scores.clear() # 清空字典
     print(scores)
 
 
